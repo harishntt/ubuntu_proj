@@ -22,17 +22,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-</project>
+                <distributionManagement>
+                <repository>
+                        <id>deployment</id>
+                        <name>Release Repository</name>
+                        <url>hhttp://192.68.1.101:8081/nexus/content/repositories/proj-releases/</url>
+                </repository>
+                <snapshotRepository>
+                        <id>deployment</id>
+                        <name>Snapshot Repository</name>
+                        <url>http://192.68.1.101:8081/nexus/content/repositories/proj-snapshot/</url>
+                </snapshotRepository>
+        </distributionManagement>
 
-  		<distributionManagement>
-		<repository>
-			<id>deployment</id>
-			<name>Release Repository</name>
-			<url>hhttp://192.68.1.101:8081/nexus/content/repositories/proj-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>deployment</id>
-			<name>Snapshot Repository</name>
-			<url>http://192.68.1.101:8081/nexus/content/repositories/proj-snapshot/</url>
-		</snapshotRepository>
-	</distributionManagement>
+</project>
