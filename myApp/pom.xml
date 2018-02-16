@@ -26,12 +26,12 @@
                 <repository>
                         <id>deployment</id>
                         <name>Release Repository</name>
-                        <url>hhttp://192.68.56.1:8081/nexus/content/repositories/proj-releases/</url>
+                        <url>hhttp://192.168.56.1:8081/nexus/content/repositories/proj-releases/</url>
                 </repository>
                 <snapshotRepository>
                         <id>deployment</id>
                         <name>Snapshot Repository</name>
-                        <url>http://192.68.56.1:8081/nexus/content/repositories/proj-snapshot/</url>
+                        <url>http://192.168.56.1:8081/nexus/content/repositories/proj-snapshot/</url>
                 </snapshotRepository>
         </distributionManagement>
 
