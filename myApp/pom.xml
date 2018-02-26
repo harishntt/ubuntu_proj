@@ -9,9 +9,9 @@
 
 
 <scm>
-  <connection>scm:git:https://github.com/harishntt/ubuntu_proj.git</connection>
-  <developerConnection>scm:git:https://github.com/harishntt/ubuntu_proj.git</developerConnection>
-  <url>https://github.com/harishntt/ubuntu_proj</url>
+  <connection>scm:git:git@github.com:harishntt/ubuntu_proj.git</connection>
+  <developerConnection>scm:git:git@github.com:harishntt/ubuntu_proj.git</developerConnection>
+  <url>git@github.com:harishntt/ubuntu_proj</url>
   <tag>HEAD</tag>
 </scm>
 
